@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>做網頁</title>
+    <title>六角學院</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./src/css/lightbox.css">
+    <link href="./fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+
+
+
+
+    
 </head>
 <body>
 
@@ -22,63 +31,102 @@
          </li>
      </ul>
 
-     <nav class="navbar">
-       <ul class="button">
-          <li>
-             <a href=""><img src="./最終作業_images/logo.png" alt=""></a>
-          </li>
-          
-          <li class="navlist">
-              <a href="#">首頁</a>
-              <a href="#">產品介紹</a>
-              <a href="#">聯絡我們</a>
-          </li>
-       </ul>
-     </nav>
+       <nav class="navbar">
+           <a href="" class="pic1"><img src="./最終作業_images/logo.png" alt="logo"></a>
+           <div class="pager">
+           <ul class="button">
+               <li class="list">
+                   <a href="./index.html" class="pick3">首頁</a>
+               </li>
+           
+               <li class="list1">
+                 <a href="" class="pick1">產品介紹</a>
+                 <ul class="bar1">
+                     <li> <a href="http://www.kimo.com"> HTML/CSS</a></li>
+                     <li> <a href="http://www.kimo.com">RWD</a> </li>
+                     <li> <a href="http://www.kimo.com">JQuery</a></li>
+                 </ul>
+            </li>
 
-     <div class="box">
-         <div class="box1">
-        <h2>六角學院
-            <br>讓您奠定良好的前端基礎
-        </h2>
-        <br>
-        
-        
-        
-        
-        
-        
-         
-         </div>
-     </div>
+            <li class="list1">
+                <a href="" class="pick2">關於我們</a>
+                <ul class="bar2">
+                    <li> <a href="http://www.kimo.com">聯絡我們</a></li>
+                    <li> <a href="http://www.kimo.com">異業合作</a></li>
+                </ul>
+            </li>
+           </ul>
+        </div>
+       </nav>
+
+     
+      <!-- Slider main container -->
+        <div class="swiper">
+            <h2 class="slogen7 animate__animated animate__lightSpeedInRight">六角學院<br>
+                奠定您前端良好基礎</h2>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <!-- <div class="swiper-slide"> <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png" alt=""></div> -->
+      <div class="swiper-slide"><img src="./最終作業_images/shoes.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./最終作業_images/jon-tyson-CrYTr1335_4-unsplash.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./最終作業_images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt=""></div>
+   
+    </div>
+
+        </div>
+
+   
+   
+   
         
          <div class="content">
+
             <div class="course">
               <div class="fotos">
-                  <img src="./最終作業_images/html.png" alt="">
+                <a href="./最終作業_images/html.png" data-lightbox="roadtrip"><img src="./最終作業_images/html.png" alt=""> </a>
               </div>
+              <div class="tidy">
                  <h2>Html 5 基礎教學</h2>
+                 <br>
                  <p>主流前端網站設計的基礎就在六角學院，這裡不再只是填鴨式教學，而是透過實際範例，了解正確的網站開發流程，講師均有業界開發經驗，讓學員學習業界的主流開發方法。</p>
-            </div>
-
-            <div class="course">
-                <div class="fotos">
-                    <img src="./最終作業_images/rwd.png" alt="">
+                 <br>
+                 <br>
+                 <li><button class="addcart">加入購物車</button>
                 </div>
-                 <h2>響應式網站設計</h2>
-                 <p> 響應式網站設計(Responsive Web Design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已是必備的。六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</p>
             </div>
 
             <div class="course">
                 <div class="fotos">
-                    <img src="./最終作業_images/jQuery.png" alt="">
+                    <a href="./最終作業_images/rwd.png" data-lightbox="roadtrip" data-title="RWD"> <img src="./最終作業_images/rwd.png" alt=""></a>
+                </div>
+                <div class="tidy">
+                 <h2>響應式網站設計</h2>
+                 <br>
+                 <p> 響應式網站設計(Responsive Web Design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已是必備的。六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</p>
+                 <br>
+                 <br>
+                 <li><button class="addcart">加入購物車</button>
+                </div>
+                </div>
+
+            <div class="course">
+                <div class="fotos">
+                    <a href="./最終作業_images/jQuery.png" data-lightbox="roadtrip"><img src="./最終作業_images/jQuery.png" alt=""></a>
                 </div>
                 <h2>jQuery 實戰教學</h2>
-                   <h3>本課程有以下特色:</h3>
+                <br>
+                <div class="tidy3">
+                   <li>本課程有以下特色:</li>
+                   <br>
                    <li>了解變數的使用方法</li>
                    <li>學習並操作DOM</li>
                    <li>學習基本數學運算方法</li>
                    <li>套件的操作及運用</li>
+                   <br>
+                   <li><button class="addcart">加入購物車</button>
+                </div>
+                   
             </div>
          </div>
 
@@ -174,11 +222,11 @@
 </div>
 
 
-      <div class="footer">
+      <div class="footer animate__animated animate__lightSpeedInRight">
         <a href="index.html"><img src="./最終作業_images/footerLogo.png" alt=""></a>
          
         <div class="contactfile">
-        <h4>聯絡我們:hexschool@gmail.com</h4>
+        <h4 class="file1">聯絡我們:hexschool@gmail.com</h4>
          <h4>電話：0999-123-456</h4>
         </div>
       </div>
@@ -188,15 +236,20 @@
 
 
 
-
-
-
+      <div class="box2">
+     <a href="#" class="uptotop"><img src="./fontawesome-free-6.1.1-web/svgs/solid/circle-up.svg" alt="" ></a>
+    </div>
 
 
 
 
     </div>
 
+
+    <script src="./Jquery.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./src/js/lightbox.js"></script>
+<script src="./all.js"></script>
     
 </body>
 </html>
@@ -227,5 +280,3 @@
 
 
     
-</body>
-</html>
